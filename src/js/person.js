@@ -25,6 +25,10 @@ export default class Person{
         agingPlanets.push(Math.round(yearsLeft/number));
       });
       return this.galaxyLifeExpect;
+    } else {
+      yearsLeft= -yearsLeft;
+      let message = `You have lived ${yearsLeft} earth years past when you were expected to, good health to you!`;
+      return message;
     }
   }
 };
