@@ -13,10 +13,6 @@ describe( 'Person', () => {
     expect(person.galaxyAges).toEqual([]);
   });
 
-  test('should correctly caluculate persons age on Mercury', () => {
-    expect(person.spaceAge()).toEqual([146]);
-  });
-
   test('should create an array to loop through to calculate the age on all the planets', () => {
     expect(person.spaceAges()).toEqual([146, 56, 19, 3]);
   });
