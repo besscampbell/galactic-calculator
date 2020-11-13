@@ -6,7 +6,7 @@
 
 ## Description
 
- Feeling old and blue? Well that's probably because you are basing your age off of the planet Venus. Look at your life from a whole new perspective when you calculate your age based on the planet Saturn or even Uranus. Renew your view of life on Earth when you take another planet's perspective on your time spent living. 
+ Feeling old and blue? Well that's probably because you are basing your age off of the planet Venus. Look at your life from a whole new perspective when you calculate your age based on the planet Jupiter or even Uranus. Renew your view of life on Earth when you take another planet's perspective on your time spent living. 
 
 ## Installation Requirements
 
