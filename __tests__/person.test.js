@@ -19,7 +19,7 @@ describe( 'Person', () => {
   });
 
   test('should correctly determine how many years a user has left to live on each planet', () => {
-    expect(person.spaceLifeExpect()).toEqual([213, 82, 27, 44])
+    expect(person.spaceLifeExpect()).toEqual([213, 82, 27, 4])
   });
 });
 
