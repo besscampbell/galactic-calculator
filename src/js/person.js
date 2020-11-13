@@ -20,14 +20,14 @@ export default class Person{
     const planetCalculator = [.24, .62, 1, 1.88, 11.86];
     let yearsLeft = this.lifeExpect - this.earthAge;
     let agingPlanets = this.galaxyLifeExpect;
+    planetCalculator.forEach(function(number) {
+      agingPlanets.push(Math.round(yearsLeft/number));
+    });
+    let [mercury, venus, earth, mars, jupiter] = agingPlanets
     if (yearsLeft >= 0) {
-      planetCalculator.forEach(function(number) {
-        agingPlanets.push(Math.round(yearsLeft/number));
-      });
       return this.galaxyLifeExpect;
     } else {
-      yearsLeft= -yearsLeft;
-      let message = `You have lived ${yearsLeft} earth years past when you were expected to, good health to you!`;
+      let message = `You have lived ${Math.abs(mercury)} Mercurian, ${Math.abs(venus)} Venusian, ${Math.abs(earth)} Earthling, ${Math.abs(mars)} Martian, ${Math.abs(jupiter)} Jupitian  years past when you were expected to, good health to you!`;
       return message;
     }
   }
