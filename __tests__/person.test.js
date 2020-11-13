@@ -15,16 +15,16 @@ describe( 'Person', () => {
   });
 
   test('should create an array to loop through to calculate the age on all the planets', () => {
-    expect(person.spaceAges()).toEqual([146, 56, 19, 3]);
+    expect(person.spaceAges()).toEqual([146, 56, 35, 19, 3]);
   });
 
   test('should correctly determine how many years a user has left to live on each planet', () => {
-    expect(person.spaceLifeExpect()).toEqual([213, 82, 27, 4])
+    expect(person.spaceLifeExpect()).toEqual([213, 82, 51, 27, 4])
   });
 
   test('should determine if person has live past their life expectancy', () => {
     let person2 = new Person (99, 89, [], [])
-    expect(person2.spaceLifeExpect()).toEqual("You have lived 10 earth years past when you were expected to!");
+    expect(person2.spaceLifeExpect()).toEqual("You have lived 10 earth years past when you were expected to, good health to you!");
   });
 });
 

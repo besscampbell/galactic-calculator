@@ -7,7 +7,7 @@ export default class Person{
   }
 
   spaceAges() {
-    const planetCalculator = [.24, .62, 1.88, 11.86];
+    const planetCalculator = [.24, .62, 1, 1.88, 11.86];
     let age = this.earthAge;
     let planets = this.galaxyAges;
     planetCalculator.forEach(function(number) {
@@ -17,7 +17,7 @@ export default class Person{
   }
 
   spaceLifeExpect() {
-    const planetCalculator = [.24, .62, 1.88, 11.86];
+    const planetCalculator = [.24, .62, 1, 1.88, 11.86];
     let yearsLeft = this.lifeExpect - this.earthAge;
     let agingPlanets = this.galaxyLifeExpect;
     if (yearsLeft >= 0) {
