@@ -18,7 +18,7 @@ describe( 'Person', () => {
   });
 
   test('should create an array to loop through to calculate the age on all the planets', () => {
-    expect(person.spaceAges().toEqual([146, 56, 19, 3]))
+    expect(person.spaceAges()).toEqual([146, 56, 19, 33]);
   });
 });
 
