@@ -23,7 +23,8 @@ describe( 'Person', () => {
   });
 
   test('should determine if person has live past their life expectancy', () => {
-    expect(person.spaceLifeExpect()).toBeFalsy();
+    let person2 = new Person (99, 89, [], [])
+    expect(person2.spaceLifeExpect()).toEqual("You have lived 10 earth years past when you were expected to!");
   });
 });
 
