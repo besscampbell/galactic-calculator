@@ -22,9 +22,14 @@ describe( 'Person', () => {
     expect(person.spaceLifeExpect()).toEqual([213, 82, 51, 27, 4])
   });
 
-  test('should determine if person has live past their life expectancy', () => {
-    let person2 = new Person (99, 89, [], [])
-    expect(person2.spaceLifeExpect()).toEqual("You have lived 10 earth years past when you were expected to, good health to you!");
+  // test('should determine if person has live past their life expectancy', () => {
+  //   let person2 = new Person (99, 89, [], []);
+  //   expect(person2.spaceLifeExpect()).toEqual("You have lived 10 earth years past when you were expected to, good health to you!");
   });
+    test ('should correctly display the years live past life expectancy for all planets', () => {
+    let person2 = new Person (99, 89, [], []);
+    expect(person2.spaceLifeExpect()).toEqual("You have lived 42 Mercurian, 16 Venusian, 10 Earthling, 5 Martian, 1 Jupitian years past when you were expected to, keep on defying the odds!")
+    });
 });
 
+ 
