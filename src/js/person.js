@@ -1,8 +1,9 @@
 export default class Person{
-  constructor(earthAge, lifeExpect, galaxyAges) {
+  constructor(earthAge, lifeExpect, galaxyAges, galaxyLifeExpect) {
     this.earthAge = earthAge;
     this.lifeExpect = lifeExpect;
     this.galaxyAges = [];
+    this.galaxyLifeExpect = [];
   }
 
   spaceAges() {
