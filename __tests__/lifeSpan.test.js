@@ -15,6 +15,6 @@ describe( 'LifeSpan', () => {
     expect(lifeSpan.continent).toEqual("Asia");
     expect(lifeSpan.exercisePerWeek).toEqual(4);
     expect(lifeSpan.smoker).toBeFalsy();
-    expect(lifeSpan.lifeExpectancy).toEqual(4)
+    expect(lifeSpan.lifeExpectancy).toEqual(0)
   });
 });
