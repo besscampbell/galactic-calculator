@@ -7,12 +7,22 @@ export default class Person{
   }
 
   spaceAges() {
-    const planetCalculator = [.24, .62, 1.88, 11.86]
-    let age = this.earthAge
-    let planets = this.galaxyAges
+    const planetCalculator = [.24, .62, 1.88, 11.86];
+    let age = this.earthAge;
+    let planets = this.galaxyAges;
     planetCalculator.forEach(function(number) {
       planets.push(Math.round(age/number));
     });
     return this.galaxyAges;
+  }
+
+  spaceLifeExpect() {
+    const planetCalculator = [.24, .62, 1.88, 11.86];
+    let yearsLeft = this.lifeExpect - this.earthAge;
+    let agingPlanets = this.galaxyLifeExpect;
+    planetCalculator.forEach(function(number) {
+      agingPlanets.push(Math.round(yearsLeft/number));
+    });
+    return this.galaxyLifeExpect;
   }
 };
