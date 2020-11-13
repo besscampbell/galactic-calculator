@@ -1,5 +1,5 @@
-export default class Person{
-  constructor(earthAge, lifeExpect, galaxyAges, galaxyLifeExpect) {
+export default class Person {
+  constructor (earthAge, lifeExpect, galaxyAges, galaxyLifeExpect) {
     this.earthAge = earthAge;
     this.lifeExpect = lifeExpect;
     this.galaxyAges = [];
