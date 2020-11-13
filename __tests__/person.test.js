@@ -14,7 +14,7 @@ describe( 'Person', () => {
   });
 
   test('should correctly caluculate persons age on Mercury', () => {
-    expect(person.spaceAge()).toEqual([1466]);
+    expect(person.spaceAge()).toEqual([146]);
   });
 });
 
