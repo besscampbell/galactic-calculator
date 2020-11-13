@@ -20,9 +20,11 @@ export default class Person{
     const planetCalculator = [.24, .62, 1.88, 11.86];
     let yearsLeft = this.lifeExpect - this.earthAge;
     let agingPlanets = this.galaxyLifeExpect;
-    planetCalculator.forEach(function(number) {
-      agingPlanets.push(Math.round(yearsLeft/number));
-    });
-    return this.galaxyLifeExpect;
+    if (yearsLeft >= 0) {
+      planetCalculator.forEach(function(number) {
+        agingPlanets.push(Math.round(yearsLeft/number));
+      });
+      return this.galaxyLifeExpect;
+    }
   }
 };

@@ -23,7 +23,7 @@ describe( 'Person', () => {
   });
 
   test('should determine if person has live past their life expectancy', () => {
-    expect(person.spaceLifeExpect()).toBeTruthy();
+    expect(person.spaceLifeExpect()).toBeFalsy();
   });
 });
 
