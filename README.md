@@ -1,35 +1,58 @@
- _{Application Name}_
+ # Super Galactic Age Calculator
 
-#### _{Brief description of application}, {Date of current version}_
+####  You're young in Jupiter years, 11.13.2020
 
-#### By _**{List of contributors}**_
+#### By _**Bess Campbell**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+ Feeling old and blue? Well that's probably because you are basing your age off of the planet Venus. Look at your life from a whole new perspective when you calculate your age based on the planet Saturn or even Uranus. Renew your view of life on Earth when you take another planet's perspective on your time spent living. 
 
-## Setup/Installation Requirements
+## Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+*  Up to date internet browser ([Chrome](https://www.google.com/chrome/?brand=CHBD&gclid=Cj0KCQjw28T8BRDbARIsAEOMBcy9jwgkNels1LOSIWTx4sDazLfEgC6PylTug62KqyWPeA0EMyr3254aAjTTEALw_wcB&gclsrc=aw.ds), [Mozilla](https://www.mozilla.org/en-US/firefox/), [Opera](https://www.opera.com/)) 
+*  Code editor like [VSCode](https://code.visualstudio.com/download) to view source code 
+*  With [node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/get-npm) installed 
+
+## Setup
+
+#### From the web
+1. Go to this [GitHub Repo Page](https://github.com/besscampbell/galactic-calculator.git).
+2. Click the "Code" and click the 'Download zip' option.
+3. Unzip the file, navigate to the root directory (galactic-calculator).
+4. open the 'dist/index.html' file with your web browser.
+
+--or--
+
+#### From Terminal
+
+1. Open a terminal in your code editor and type 
+: `git clone https://github.com/besscampbell/galactic-calculator.git`
+2. Navigate to the galactic-calculator directory in the terminal and type: `npm install` and then `npm run build` into the command line.
+3. Then open the 'dist/index.html' to view in browser 
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+ TODO 
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+ Please contact <bess.k.campbell@gmail.com> with any questions or comments. 
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+*  HTML
+*  Git 
+*  CSS 
+*  Bootstrap 
+*  JavaScript 
+*  jQuery 
+*  Node.js 
+*  NPM 
+*  Webpack
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+[MIT license](https://opensource.org/licenses/MIT)
 
-Copyright (c) 2020 **_{List of contributors or company name}_**
+Copyright (c) 2020 **_Bess Campbelll_**
