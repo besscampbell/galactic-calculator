@@ -27,7 +27,7 @@ export default class Person{
     if (yearsLeft >= 0) {
       return this.galaxyLifeExpect;
     } else {
-      let message = `You have lived ${Math.abs(mercury)} Mercurian, ${Math.abs(venus)} Venusian, ${Math.abs(earth)} Earthling, ${Math.abs(mars)} Martian, ${Math.abs(jupiter)} Jupitian  years past when you were expected to, good health to you!`;
+      let message = `You have lived ${Math.abs(mercury)} Mercurian, ${Math.abs(venus)} Venusian, ${Math.abs(earth)} Earthling, ${Math.abs(mars)} Martian, ${Math.abs(jupiter)} Jupitian years past when you were expected to, keep on defying the odds!`;
       return message;
     }
   }
