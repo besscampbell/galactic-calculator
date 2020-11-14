@@ -39,6 +39,6 @@ describe( 'LifeSpan', () => {
 
   test('should correctly keep life span the same if living in Europe, Australia, or Africa', () => {
     let lifeSpan2 = new LifeSpan ("male", "Australia", 4, false, 0)
-    expect(lifeSpan2.calculateContinent()).toEqual(10);
+    expect(lifeSpan2.calculateContinent()).toEqual(0);
   });
 });

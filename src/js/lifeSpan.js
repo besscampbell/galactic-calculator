@@ -27,9 +27,11 @@ export default class LifeSpan {
   calculateContinent() {
     let lifeAge = this.lifeExpectancy;
     let landMass = this.continent;
-    if (landMass === "North America" || landMass === "South America" || landMass === "Antarctica" || landMass === "Asia") {
-    lifeAge += -10;
-    } else 
-    return lifeAge;
+      if (landMass === "North America" || landMass === "South America" || landMass === "Antarctica" || landMass === "Asia") {
+        lifeAge += -10;
+        return lifeAge
+      } else {
+        return lifeAge;
+      }
   }
 }
