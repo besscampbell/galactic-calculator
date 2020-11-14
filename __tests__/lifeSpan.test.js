@@ -17,7 +17,10 @@ describe( 'LifeSpan', () => {
     expect(lifeSpan.smoker).toBeFalsy();
     expect(lifeSpan.lifeExpectancy).toEqual(0)
   });
-  test('should correctly assign a base life expectancy based on gender', () => {
-    expect(lifeSpan.calculateLifeSpan()).toEqual(82);
+  test('should correctly assign a base life expectancy if female', () => {
+    expect(lifeSpan.calculateLifeSpan()).toEqual(80);
+  });
+  test('should correctly assign life expectancy if male', () => {
+    expect(lifeSpan.calculateLifeSpan()).toEqual(90);
   });
 });
