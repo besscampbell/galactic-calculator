@@ -18,6 +18,6 @@ describe( 'LifeSpan', () => {
     expect(lifeSpan.lifeExpectancy).toEqual(0)
   });
   test('should correctly assign a base life expectancy based on gender', () => {
-    expect(lifeSpan.calculateLifeSpan).toEqual(80);
+    expect(lifeSpan.calculateLifeSpan()).toEqual(82);
   });
 });
