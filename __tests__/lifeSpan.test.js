@@ -28,4 +28,7 @@ describe( 'LifeSpan', () => {
     let lifeSpan3 = new LifeSpan ("non-binary", "Asia", 4, false, 0);
     expect(lifeSpan3.calculateLifeSpan()).toEqual(83);
   });
+  test('should subtract 10 years off of life span if living in North America, South America, Antarctica, or Asia', () => {
+    expect(lifeSpan.calculateContinent()).toEqual(-10);
+  });
 });
