@@ -21,6 +21,7 @@ describe( 'LifeSpan', () => {
     expect(lifeSpan.calculateLifeSpan()).toEqual(80);
   });
   test('should correctly assign life expectancy if male', () => {
-    expect(lifeSpan.calculateLifeSpan()).toEqual(90);
+    let lifeSpan2 = new LifeSpan ("male", "Asia", 4, false, 0)
+    expect(lifeSpan2.calculateLifeSpan()).toEqual(74);
   });
 });
