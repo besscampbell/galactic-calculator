@@ -26,6 +26,6 @@ describe( 'LifeSpan', () => {
   });
   test('should correctly assign life expectancy if non-binary',() => {
     let lifeSpan3 = new LifeSpan ("non-binary", "Asia", 4, false, 0);
-    expect(lifeSpan3.calculateLifeSpan()).toEqual(88);
+    expect(lifeSpan3.calculateLifeSpan()).toEqual(83);
   });
 });
