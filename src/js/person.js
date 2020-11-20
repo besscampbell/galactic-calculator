@@ -8,10 +8,8 @@ export default class Person {
 
   spaceAges() {
     const planetCalculator = [.24, .62, 1, 1.88, 11.86];
-    let age = this.earthAge;
-    let planets = this.galaxyAges;
-    planetCalculator.forEach(function(number) {
-      planets.push(Math.round(age/number));
+    planetCalculator.forEach((number) => {
+      this.galaxyAges.push(Math.round(this.earthAge/number));
     });
     return this.galaxyAges;
   }
@@ -19,11 +17,10 @@ export default class Person {
   spaceLifeExpect() {
     const planetCalculator = [.24, .62, 1, 1.88, 11.86];
     let yearsLeft = this.lifeExpect - this.earthAge;
-    let agingPlanets = this.galaxyLifeExpect;
-    planetCalculator.forEach(function(number) {
-      agingPlanets.push(Math.round(yearsLeft/number));
+    planetCalculator.forEach((number) => {
+      this.galaxyLifeExpect.push(Math.round(yearsLeft/number));
     });
-    let [mercury, venus, earth, mars, jupiter] = agingPlanets
+    let [mercury, venus, earth, mars, jupiter] = this.galaxyLifeExpect
     if (yearsLeft >= 0) {
       return this.galaxyLifeExpect;
     } else {
